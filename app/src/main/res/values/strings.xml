@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">墨猫</string>
+    <string name="a11y_summary">一只住在屏幕边上的水墨小猫</string>
+    <string name="a11y_desc">打开后，墨猫会待在屏幕边上，并能按你的指令帮你打开应用、返回、滑动、点按屏幕上的文字。它只在你下指令时操作，不会收集、保存或上传屏幕上的任何内容。</string>
+</resources>
