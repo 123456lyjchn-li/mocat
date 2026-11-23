@@ -71,7 +71,7 @@ public class CatView extends View {
     private boolean onCat, longFired, dragging;
     private long lastTapAt, petAt;
     private final Runnable longPress = () -> {
-        if (moved < slop * 1.5f && !dragging) {
+        if (moved < CatView.this.slop * 1.5f && !dragging) {
             longFired = true;
             if (host == null) return;
             if (onCat) host.onCatLongPress();
